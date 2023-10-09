@@ -1,14 +1,13 @@
 import sequelize from "sequelize";
-import db from "../database/database_sequelize.js"
+import db from "../../database/database_sequelize.js"
 
-const  OrderDetail = db.define('orderDetail',{
+const  Cart = db.define('cart',{
         id:{
             type: sequelize.INTEGER,
             autoIncrement: true,
             allowNull: false,
             primaryKey: true
-        },
-        quantity:sequelize.INTEGER, 
+        }
     },
     {  //updatedAt:false
 
@@ -16,4 +15,4 @@ const  OrderDetail = db.define('orderDetail',{
 
 
 
-export default OrderDetail;
+export default Cart;

@@ -1,5 +1,5 @@
-import sequelize from "sequelize";
-import db from "../database/database_sequelize.js"
+import sequelize from "sequelize"
+import db from "../../database/database_sequelize.js"
 
 const  User = db.define('user',{
         id:{
@@ -14,7 +14,5 @@ const  User = db.define('user',{
     {  //updatedAt:false
 
 });
-
-
 
 export default User;

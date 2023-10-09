@@ -1,7 +1,7 @@
 import sequelize from "sequelize";
-import db from "../database/database_sequelize.js"
+import db from "../../database/database_sequelize.js"
 
-const  Cart = db.define('cart',{
+const  Order = db.define('order',{
         id:{
             type: sequelize.INTEGER,
             autoIncrement: true,
@@ -15,4 +15,4 @@ const  Cart = db.define('cart',{
 
 
 
-export default Cart;
+export default Order;

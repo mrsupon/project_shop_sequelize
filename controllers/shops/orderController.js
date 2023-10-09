@@ -1,9 +1,9 @@
-import Product from "../../models/product.js";
-import Cart from "../../models/cart.js";
-import CartItem from "../../models/cartItem.js";
-import Order from "../../models/order.js";
-import OrderDetail from "../../models/orderDetail.js";
-import User from "../../models/user.js";
+import Product from "../../models/sequelize/product.js";
+import Cart from "../../models/sequelize/cart.js";
+import CartItem from "../../models/sequelize/cartItem.js";
+import Order from "../../models/sequelize/order.js";
+import OrderDetail from "../../models/sequelize/orderDetail.js";
+import User from "../../models/sequelize/user.js";
 
 class OrderController{
 

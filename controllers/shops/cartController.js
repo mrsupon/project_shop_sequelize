@@ -1,5 +1,5 @@
-import Product from "../../models/product.js";
-import Cart from "../../models/cart.js";
+import Product from "../../models/sequelize/product.js";
+import Cart from "../../models/sequelize/cart.js";
 
 class CartController{
 

@@ -1,5 +1,4 @@
-import Product from "../../models/product.js"
-import User from "../../models/user.js"
+import Product from "../../models/sequelize/product.js"
 
 class ProductController{
 
